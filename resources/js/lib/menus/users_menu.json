@@ -1,0 +1,20 @@
+[
+    {
+        "type": "item",
+        "icon": "fas fa-user-plus",
+        "name": "Novo Usuário",
+        "router": {
+            "name": "newUser"
+        },
+        "permission": "add_users"
+    },
+    {
+        "type": "item",
+        "icon": "fa fa-users",
+        "name": "Usuários",
+        "router": {
+            "name": "users"
+        },
+        "permission": "view_users"
+    }
+]
